@@ -116,9 +116,8 @@ body {
 }
 
 .about-left .about-img {
-  width: 150px;
-  margin: auto;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .about-left .about-info p span:first-child{
