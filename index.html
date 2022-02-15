@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
     <title>이혜인 포트폴리오</title>
+    
 </head>
 <body>
     <!-- header -->
@@ -18,7 +20,7 @@
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#skill">SKILLS</a></li>
-                    <li><a href="#project">PROJECT</a></li>
+                    <li><a href="#project">PORTFOLIO</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
@@ -28,14 +30,14 @@
     <main id="main">
 
         <!-- home -->
-        <section class="home">
+        <section id="home">
             <div>
                 
             </div>
         </section>
 
         <!-- about -->
-        <section class="about">
+        <section id="about">
             <div class="about-left">
                 <div class="about-img">
                     <img src="images/me2.png" style="width: 250px;">
@@ -77,27 +79,67 @@
         </section>
 
         <!-- skills -->
-        <section class="skills">
+        <section id="skill">
             <div class="title-box">
-                <h3 class="title">SKILLS</h3>
+                <span class="title">SKILLS</span>
             </div>
-
-            <div>
-
-                
+            <div class="skills">
+                <div class="skill-box">
+                    <span class="mdi mdi-language-html5 skill-icon" style="color: tomato;"></span>
+                    <span class="skill-name">HTML5</span>
+                    <p>페이지 구성에 대한 고민을 많이 합니다. 카카오오븐 또는 종이를 활용하여 페이지에 대한 설계를 한 다음 구현을 합니다. 다양한 폼태그와 테이블을 사용할 수 있습니다.</p>
+                </div>
+                <div class="skill-box">
+                    <span class="mdi mdi-language-css3 skill-icon" style="color: cornflowerblue;"></span>
+                    <span class="skill-name">CSS3</span>
+                    <p>다양한 선택자를 이용하여 원하는 스타일을 적용할 수 있습니다. 부트스트랩을 활용할 수 있습니다. 깔끔하고 직관적인 UI를 설계하기 위해 노력합니다. 클래스명을 어떻게 지을 지 많이 고민하곤 합니다.</p>
+                </div>
+                <div class="skill-box">
+                    <span class="mdi mdi-language-javascript skill-icon" style="color: gold;"></span>
+                    <span class="skill-name">JavaScript</span>
+                    <p>Javascript의 기본 문법을 익히고 jQuery를 통해 웹프론트 페이지를 구현할 수 있습니다. AJAX를 통해 서버와 통신하며 JSON으로 통계 데이터를 가져와 차트를 구현했습니다.</p>
+                </div>
+                <div class="skill-box">
+                    <span class="mdi mdi-coffee skill-icon" style="color: firebrick;"></span>
+                    <span class="skill-name">Java</span>
+                    <p>객체 지향 프로그래밍을 이해하며 코드를 구현합니다. 자바를 사용한 콘솔 프로그램과 모바일 애플리케이션을 만든 적이 있습니다. 더 성능이 좋은 코드를 구현하기 위해 <a href="https://github.com/lh0156/Algorithm-Team" target="_blank">알고리즘 스터디</a>를 진행 중입니다.</p>
+                </div>
+                <div class="skill-box">
+                    <span class="mdi mdi-database skill-icon" style="color: rgb(243, 48, 22);"></span>
+                    <span class="skill-name">Oracle</span>
+                    <p>관계형 데이터베이스에 확실히 이해하며 ERD를 만들 수 있습니다. 기본적인 ANSI-SQL을 사용하여 쿼리를 작성할 수 있습니다. PL/SQL으로 프로시저와 트리거 등을 구현할 수 있습니다.</p>
+                </div>
+                <div class="skill-box">
+                    <span class="mdi mdi-leaf-circle skill-icon" style="color: limegreen;"></span>
+                    <span class="skill-name">Spring MVC</span>
+                    <p>MVC 모델2를 활용하여 CRUD 및 페이징, 검색, 댓글 기능이 가능한 게시판을 구현할 수 있습니다. Tiles를 적용하여 레이아웃을 처리할 수 있으면 AOP를 이용하여 주업무와 보조업무를 구분하여 구현할 수 있습니다.</p>
+                </div>
+                <div class="skill-box">
+                    <div class="skill-icon" style="color: steelblue;">
+                        <span class="mdi mdi-git" style="color: coral;"></span>
+                        <span class="mdi mdi-github" style="color: black;"></span>
+                    </div>
+                    <span class="skill-name">Git / Github</span>
+                    <p>형상 관리의 중요성을 깨닫고 git에 익숙해지기 위해 프로젝트나 공부 자료를 github로 관리합니다. github을 이용하여 협업을 진행한 경험이 있습니다. 또한 github 서버를 활용하여 포트폴리오 사이트를 관리합니다.</p>
+                </div>
+                <div class="skill-box">
+                    <span class="mdi mdi-language-c skill-icon" style="color: steelblue;"></span>
+                    <span class="skill-name">C language</span>
+                    <p>프로그래밍에 입문하게 된 언어이자 학부 시절 주로 사용했던 언어입니다. 학부생들과 함께 알고리즘 스터디를 하며 C언어에 대한 기초를 다졌습니다. 소켓 통신을 활용한 채팅 프로그램과 파일 전송 프로그램을 만들 수 있습니다.</p>
+                </div>
             </div>
         </section>
 
         <!-- project -->
-        <section class="project">
+        <section id="project">
 
             <div class="title-box">
-                <h3 class="title">PORTFOLIO</h3>
+                <span class="title">PORTFOLIO</span>
             </div>
 
             <div class="projects">
                 <div class="project-box">
-                    <a href="https://github.com/hyein8290/Goguma">
+                    <a href="https://github.com/hyein8290/Goguma" target="_blank">
                         <div class="project-img">
                             <img src="images/project01.png">
                         </div>
@@ -115,7 +157,7 @@
                     </div>
                 </div>
                 <div class="project-box">
-                    <a href="https://github.com/hyein8290/Education_Center_Database">
+                    <a href="https://github.com/hyein8290/Education_Center_Database" target="_blank">
                         <div class="project-img">
                             <img src="images/project02.png">
                         </div>
@@ -133,7 +175,7 @@
                     </div>
                 </div>
                 <div class="project-box">
-                    <a href="https://github.com/hyein8290/SYBank_Java_Console_Project">
+                    <a href="https://github.com/hyein8290/SYBank_Java_Console_Project" target="_blank">
                         <div class="project-img">
                             <img src="images/project04.png">
                         </div>
@@ -151,7 +193,7 @@
                     </div>
                 </div>
                 <div class="project-box">
-                    <a href="portfolio-detail1.html">
+                    <a href="portfolio-detail1.html" target="_blank">
                         <div class="project-img">
                             <img src="images/project07.png">
                         </div>
@@ -169,7 +211,7 @@
                     </div>
                 </div>
                 <div class="project-box">
-                    <a href="https://github.com/hyein8290/project">
+                    <a href="https://github.com/hyein8290/project" target="_blank">
                         <div class="project-img">
                             <img src="images/project06.png">
                         </div>
@@ -185,10 +227,9 @@
                                 <i class="bi bi-plus-circle" onclick="location.href='https://github.com/hyein8290/project';"></i>
                             </div>
                     </div>
-
                 </div>
                 <div class="project-box">
-                    <a href="portfolio-detail1.html">
+                    <a href="portfolio-detail1.html" target="_blank">
                         <div class="project-img">
                             <img src="images/project01.png">
                         </div>
@@ -209,8 +250,10 @@
 
     </main>
 
-    <footer>
-
+    <footer id="footer">
+        <div class="copy">
+            <p>Copyright © 2022 <strong>Hyein</strong>. All rights reserved.</p>
+        </div>
     </footer>
 
 </body>
