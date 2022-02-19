@@ -1,0 +1,43 @@
+#home {
+    height: 30vh;
+}
+
+#home .home-title {
+    color: #222;
+    padding-top: 5vh;
+}
+
+#detail {
+    background-color: white;
+    box-shadow: 0px 0px 5px #777;
+    padding: 50px;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.detail-title h2 {
+    font-size: 36px;
+    display: inline-block;
+    background: linear-gradient(to top, #ffd2e5 50%, transparent 50%);
+}
+
+.detail-box {
+    margin-bottom: 80px;
+}
+
+.detail-img img {
+    width: 900px;
+}
+
+.detail-content {
+    line-height: 2rem;
+}
+
+.detail-content h3 {
+    font-size: 24px;
+}
+
+
