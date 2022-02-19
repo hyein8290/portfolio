@@ -40,4 +40,27 @@
     font-size: 24px;
 }
 
+#main > section {
+    margin-bottom: 40px;
+}
+
+.back {
+    float: right;
+    transform: translateX(-10px);
+    border: 2px solid #141414;
+    border-radius: 5%;
+    outline: none;
+    color: #141414;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-family: LeferiBaseType-RegularA;
+    cursor: pointer;
+}
+
+.back:hover {
+    background: #141414;
+    color: #EEE;
+}
 
